@@ -1,0 +1,3 @@
+D:/Teme/Informatica/Github/Naval-War/cmake-build-debug/CMakeFiles/Naval_War.dir
+D:/Teme/Informatica/Github/Naval-War/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Teme/Informatica/Github/Naval-War/cmake-build-debug/CMakeFiles/rebuild_cache.dir
