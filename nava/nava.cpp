@@ -1,7 +1,7 @@
 #include "nava.h"
 
 // Construcotrul clasei Nava
-Nava::Nava(int f[][3], char * tip, int combustibil_initial){
+Nava::Nava(int f[][4], char * tip, int combustibil_initial){
     // tip
     tip = new char[strlen(tip) + 1];
     strcpy(this->tip, tip);
@@ -13,6 +13,9 @@ Nava::Nava(int f[][3], char * tip, int combustibil_initial){
 
     // combustibil_initial
     this->combustibil_initial = combustibil_initial;
+
+    //coordonatele vor fi automat puse pe niste valori care nu pot exista
+    x = y = -100;
 };
 
 // Destructorul clasei Nava
