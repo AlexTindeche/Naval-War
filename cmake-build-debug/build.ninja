@@ -32,14 +32,14 @@ CONFIGURATION = Debug
 #############################################
 # Include rules file.
 
-include CMakeFiles\rules.ninja
+include CMakeFiles/rules.ninja
 
 # =============================================================================
 
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:\Teme\Informatica\Github\Naval-War\cmake-build-debug\
+cmake_ninja_workdir = D$:/Teme/Informatica/Github/Naval-War/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Naval_War
 
@@ -47,56 +47,55 @@ cmake_ninja_workdir = D$:\Teme\Informatica\Github\Naval-War\cmake-build-debug\
 #############################################
 # Order-only phony target for Naval_War
 
-build cmake_object_order_depends_target_Naval_War: phony || CMakeFiles\Naval_War.dir
+build cmake_object_order_depends_target_Naval_War: phony || CMakeFiles/Naval_War.dir
 
-build CMakeFiles\Naval_War.dir\main.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:\Teme\Informatica\Github\Naval-War\main.cpp || cmake_object_order_depends_target_Naval_War
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+build CMakeFiles/Naval_War.dir/main.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:/Teme/Informatica/Github/Naval-War/main.cpp || cmake_object_order_depends_target_Naval_War
+  DEP_FILE = CMakeFiles\Naval_War.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Naval_War.dir
   OBJECT_FILE_DIR = CMakeFiles\Naval_War.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Naval_War.dir\
-  TARGET_PDB = Naval_War.pdb
 
-build CMakeFiles\Naval_War.dir\nava\nava.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:\Teme\Informatica\Github\Naval-War\nava\nava.cpp || cmake_object_order_depends_target_Naval_War
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+build CMakeFiles/Naval_War.dir/nava/nava.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:/Teme/Informatica/Github/Naval-War/nava/nava.cpp || cmake_object_order_depends_target_Naval_War
+  DEP_FILE = CMakeFiles\Naval_War.dir\nava\nava.cpp.obj.d
+  FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Naval_War.dir
   OBJECT_FILE_DIR = CMakeFiles\Naval_War.dir\nava
-  TARGET_COMPILE_PDB = CMakeFiles\Naval_War.dir\
-  TARGET_PDB = Naval_War.pdb
 
-build CMakeFiles\Naval_War.dir\tipNave\salupa.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:\Teme\Informatica\Github\Naval-War\tipNave\salupa.cpp || cmake_object_order_depends_target_Naval_War
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+build CMakeFiles/Naval_War.dir/tipNave/salupa.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:/Teme/Informatica/Github/Naval-War/tipNave/salupa.cpp || cmake_object_order_depends_target_Naval_War
+  DEP_FILE = CMakeFiles\Naval_War.dir\tipNave\salupa.cpp.obj.d
+  FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Naval_War.dir
   OBJECT_FILE_DIR = CMakeFiles\Naval_War.dir\tipNave
-  TARGET_COMPILE_PDB = CMakeFiles\Naval_War.dir\
-  TARGET_PDB = Naval_War.pdb
 
-build CMakeFiles\Naval_War.dir\tipNave\submarin.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:\Teme\Informatica\Github\Naval-War\tipNave\submarin.cpp || cmake_object_order_depends_target_Naval_War
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+build CMakeFiles/Naval_War.dir/tipNave/submarin.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:/Teme/Informatica/Github/Naval-War/tipNave/submarin.cpp || cmake_object_order_depends_target_Naval_War
+  DEP_FILE = CMakeFiles\Naval_War.dir\tipNave\submarin.cpp.obj.d
+  FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Naval_War.dir
   OBJECT_FILE_DIR = CMakeFiles\Naval_War.dir\tipNave
-  TARGET_COMPILE_PDB = CMakeFiles\Naval_War.dir\
-  TARGET_PDB = Naval_War.pdb
 
-build CMakeFiles\Naval_War.dir\tipNave\distrugator.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:\Teme\Informatica\Github\Naval-War\tipNave\distrugator.cpp || cmake_object_order_depends_target_Naval_War
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+build CMakeFiles/Naval_War.dir/tipNave/distrugator.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:/Teme/Informatica/Github/Naval-War/tipNave/distrugator.cpp || cmake_object_order_depends_target_Naval_War
+  DEP_FILE = CMakeFiles\Naval_War.dir\tipNave\distrugator.cpp.obj.d
+  FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Naval_War.dir
   OBJECT_FILE_DIR = CMakeFiles\Naval_War.dir\tipNave
-  TARGET_COMPILE_PDB = CMakeFiles\Naval_War.dir\
-  TARGET_PDB = Naval_War.pdb
 
-build CMakeFiles\Naval_War.dir\tipNave\crucisator.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:\Teme\Informatica\Github\Naval-War\tipNave\crucisator.cpp || cmake_object_order_depends_target_Naval_War
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+build CMakeFiles/Naval_War.dir/tipNave/crucisator.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:/Teme/Informatica/Github/Naval-War/tipNave/crucisator.cpp || cmake_object_order_depends_target_Naval_War
+  DEP_FILE = CMakeFiles\Naval_War.dir\tipNave\crucisator.cpp.obj.d
+  FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Naval_War.dir
   OBJECT_FILE_DIR = CMakeFiles\Naval_War.dir\tipNave
-  TARGET_COMPILE_PDB = CMakeFiles\Naval_War.dir\
-  TARGET_PDB = Naval_War.pdb
 
-build CMakeFiles\Naval_War.dir\tipNave\crucisator_aparare.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:\Teme\Informatica\Github\Naval-War\tipNave\crucisator_aparare.cpp || cmake_object_order_depends_target_Naval_War
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+build CMakeFiles/Naval_War.dir/tipNave/crucisator_aparare.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:/Teme/Informatica/Github/Naval-War/tipNave/crucisator_aparare.cpp || cmake_object_order_depends_target_Naval_War
+  DEP_FILE = CMakeFiles\Naval_War.dir\tipNave\crucisator_aparare.cpp.obj.d
+  FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Naval_War.dir
   OBJECT_FILE_DIR = CMakeFiles\Naval_War.dir\tipNave
-  TARGET_COMPILE_PDB = CMakeFiles\Naval_War.dir\
-  TARGET_PDB = Naval_War.pdb
+
+build CMakeFiles/Naval_War.dir/actiune/actiune.cpp.obj: CXX_COMPILER__Naval_War_Debug D$:/Teme/Informatica/Github/Naval-War/actiune/actiune.cpp || cmake_object_order_depends_target_Naval_War
+  DEP_FILE = CMakeFiles\Naval_War.dir\actiune\actiune.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Naval_War.dir
+  OBJECT_FILE_DIR = CMakeFiles\Naval_War.dir\actiune
 
 
 # =============================================================================
@@ -106,40 +105,38 @@ build CMakeFiles\Naval_War.dir\tipNave\crucisator_aparare.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable Naval_War.exe
 
-build Naval_War.exe: CXX_EXECUTABLE_LINKER__Naval_War_Debug CMakeFiles\Naval_War.dir\main.cpp.obj CMakeFiles\Naval_War.dir\nava\nava.cpp.obj CMakeFiles\Naval_War.dir\tipNave\salupa.cpp.obj CMakeFiles\Naval_War.dir\tipNave\submarin.cpp.obj CMakeFiles\Naval_War.dir\tipNave\distrugator.cpp.obj CMakeFiles\Naval_War.dir\tipNave\crucisator.cpp.obj CMakeFiles\Naval_War.dir\tipNave\crucisator_aparare.cpp.obj
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+build Naval_War.exe: CXX_EXECUTABLE_LINKER__Naval_War_Debug CMakeFiles/Naval_War.dir/main.cpp.obj CMakeFiles/Naval_War.dir/nava/nava.cpp.obj CMakeFiles/Naval_War.dir/tipNave/salupa.cpp.obj CMakeFiles/Naval_War.dir/tipNave/submarin.cpp.obj CMakeFiles/Naval_War.dir/tipNave/distrugator.cpp.obj CMakeFiles/Naval_War.dir/tipNave/crucisator.cpp.obj CMakeFiles/Naval_War.dir/tipNave/crucisator_aparare.cpp.obj CMakeFiles/Naval_War.dir/actiune/actiune.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Naval_War.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Naval_War.dir\
   TARGET_FILE = Naval_War.exe
-  TARGET_IMPLIB = Naval_War.lib
-  TARGET_PDB = Naval_War.pdb
+  TARGET_IMPLIB = libNaval_War.dll.a
+  TARGET_PDB = Naval_War.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Teme\Informatica\Github\Naval-War\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Teme\Informatica\Github\Naval-War\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build edit_cache: phony CMakeFiles\edit_cache.util
+build edit_cache: phony CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Teme\Informatica\Github\Naval-War\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Teme\Informatica\Github\Naval-War -BD:\Teme\Informatica\Github\Naval-War\cmake-build-debug"
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Teme\Informatica\Github\Naval-War\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Teme\Informatica\Github\Naval-War -BD:\Teme\Informatica\Github\Naval-War\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build rebuild_cache: phony CMakeFiles\rebuild_cache.util
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -163,14 +160,14 @@ build all: phony Naval_War.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ..\CMakeLists.txt C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.21.1\CMakeCCompiler.cmake CMakeFiles\3.21.1\CMakeCXXCompiler.cmake CMakeFiles\3.21.1\CMakeRCCompiler.cmake CMakeFiles\3.21.1\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ..\CMakeLists.txt C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.21.1\CMakeCCompiler.cmake CMakeFiles\3.21.1\CMakeCXXCompiler.cmake CMakeFiles\3.21.1\CMakeRCCompiler.cmake CMakeFiles\3.21.1\CMakeSystem.cmake: phony
+build ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
 
 
 #############################################

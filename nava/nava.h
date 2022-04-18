@@ -3,16 +3,41 @@
 
 // Aditional
 #include <string.h>
+#include "../actiune/actiune.h"
+
 
 class Nava
 {
+protected:
     char* tip{};
-    int forma[3][4];    // Forma este o matrice in care 1 reprezinta casutele ocupate de nava, iar 0 casutele neocupate
     int combustibil_initial;
-    int x, y;
+    int rachete;
+    class Pozitie{
+    private:
+        int x, y;
+    public:
+        void setX(int p){this->x = p;}
+        void setY(int p){this->y = p;}
+        int getX() const{return x;}
+        int getY() const{return y;}
+    }poz;
+    int avarie;
+    int activ; // Daca nava este distrusa sau nu
+    Actiune a;
 public:
-    Nava(int forma[][4], char * tip = "", int combustibil_initial = 0);
+    Nava(char * tip = " ", int combustibil_initial = 0);
     ~Nava();
+    void setX(int x) {poz.setX(x);}
+    void setY(int y) {poz.setY(y);}
+
+    // Actiuni comune tuturor navelor:
+    //      - Atac cu rachete
+    virtual void atac();
+    int getAvarie(){return avarie;}
+    int distrusa(){activ = 0;}
+    bool isActiva(){return activ;}
+    int getCombustibil(){return combustibil_initial;}
+    void intretinere(int x){combustibil_initial -= x; if(combustibil_initial < 0) combustibil_initial = 0;}
 };
 
 
