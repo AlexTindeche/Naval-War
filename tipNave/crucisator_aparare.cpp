@@ -46,7 +46,7 @@ istream& operator >> (istream& in, Crucisator_aparare& s){
 }
 
 bool Crucisator_aparare::lovit(int x, int y){
-    if(sistem_aparare == true)
+    if(sistem_aparare)
         return false;
     int ok = 0;
     for(int i = poz.getX(); i <= poz.getX() + 1; i++)

@@ -38,6 +38,7 @@ public:
     bool isActiva(){return activ;}
     int getCombustibil(){return combustibil_initial;}
     void intretinere(int x){combustibil_initial -= x; if(combustibil_initial < 0) combustibil_initial = 0;}
+    int getRachete(){return rachete;}
 };
 
 

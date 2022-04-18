@@ -13,12 +13,20 @@
   <component name="ChangeListManager">
     <list default="true" id="8041e91c-0652-4130-81cd-d3a96f7e43cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nava/nava.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/nava/nava.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tipNave/crucisator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/crucisator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/nava/nava.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/nava/nava.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/tipNave/crucisator.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/tipNave/crucisator.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/tipNave/crucisator_aparare.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/tipNave/crucisator_aparare.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/tipNave/distrugator.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/tipNave/distrugator.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/tipNave/salupa.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/tipNave/salupa.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/tipNave/submarin.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Naval_War.dir/tipNave/submarin.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Naval_War.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Naval_War.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nava/nava.h" beforeDir="false" afterPath="$PROJECT_DIR$/nava/nava.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tipNave/crucisator_aparare.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/crucisator_aparare.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tipNave/distrugator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/distrugator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tipNave/salupa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/salupa.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tipNave/submarin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/submarin.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +92,7 @@
       <updated>1649783122950</updated>
       <workItem from="1649783124556" duration="11301000" />
       <workItem from="1650006822955" duration="21230000" />
-      <workItem from="1650181514177" duration="43655000" />
+      <workItem from="1650181514177" duration="46254000" />
     </task>
     <servers />
   </component>
@@ -108,6 +116,11 @@
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/tipNave/submarin.cpp</url>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>364</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
