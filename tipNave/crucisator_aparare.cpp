@@ -26,6 +26,8 @@ istream& operator >> (istream& in, Crucisator_aparare& s){
             for(int j = y; j <= y + 2; j++)
                 if(tabla[i][j] == 1)
                     ok = 0;
+        if(x > dim - 4 || y > dim - 4 || y < 0 || x < 1)
+            ok = 0;
     }
     if(tabla[x + 1][y - 1] == 1 || tabla[x + 2][y + 1] == 1)
         ok = 0;

@@ -19,6 +19,8 @@ istream& operator >> (istream& in, Submarin& s){
             for(int j = y; j <= y + 1; j++)
                 if(tabla[i][j] == 1)
                     ok = 0;
+        if(x > dim - 2 || y > dim - 3 || y < 0 || x < 0)
+            ok = 0;
     }
     if(ok == 1){
         for(int i = x; i <= x + 0; i++)

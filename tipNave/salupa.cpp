@@ -20,6 +20,8 @@ istream& operator >> (istream& in, Salupa& s){
             for(int j = y; j <= y + 0; j++)
                 if(tabla[i][j] == 1)
                     ok = 0;
+        if(x > dim - 2 || y > dim - 2 || y < 0 || x < 0)
+            ok = 0;
     }
     if(ok == 1){
         for(int i = x; i <= x + 0; i++)

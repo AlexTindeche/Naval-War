@@ -28,6 +28,8 @@ istream& operator >> (istream& in, Crucisator& s){
             for(int j = y; j <= y + 2; j++)
                 if(tabla[i][j] == 1)
                     ok = 0;
+        if(x > dim - 3 || y > dim - 2 || y < 0 || x < 0)
+            ok = 0;
     }
     if(ok == 1){
         for(int i = x; i <= x + 1; i++)

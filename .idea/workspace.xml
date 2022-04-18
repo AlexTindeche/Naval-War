@@ -12,53 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8041e91c-0652-4130-81cd-d3a96f7e43cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/actiune/actiune.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actiune/actiune.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-9eaea8f6b7ce5b0c96db.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-86435eb7d4a64dba0734.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c43a2eb05851050b7606.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-04-14T10-23-40-0224.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Naval_War-Debug-54448aad76b10b559212.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-f9b3f2740a15b286dca3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ShowIncludes/foo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ShowIncludes/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ShowIncludes/main.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Naval_War.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Naval_War.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nava/nava.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/nava/nava.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nava/nava.h" beforeDir="false" afterPath="$PROJECT_DIR$/nava/nava.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tipNave/crucisator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/crucisator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tipNave/crucisator.h" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/crucisator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tipNave/crucisator_aparare.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/crucisator_aparare.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tipNave/crucisator_aparare.h" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/crucisator_aparare.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tipNave/distrugator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/distrugator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tipNave/distrugator.h" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/distrugator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tipNave/salupa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/salupa.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tipNave/salupa.h" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/salupa.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tipNave/submarin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/submarin.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tipNave/submarin.h" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/submarin.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +84,7 @@
       <updated>1649783122950</updated>
       <workItem from="1649783124556" duration="11301000" />
       <workItem from="1650006822955" duration="21230000" />
-      <workItem from="1650181514177" duration="41739000" />
+      <workItem from="1650181514177" duration="43655000" />
     </task>
     <servers />
   </component>
