@@ -318,6 +318,11 @@ void start ()
             }
         }
 
+        /*
+         * Aici verificam daca navele sunt distruse
+         *      Atentie! Am decis ca o nava care nu mai are armament sa fie distrusa automat pentru ca altfel doar consuma armamentul
+         *      celorlalte nave si nu mai este fun
+         */
         for (int i = 0; i < salupe.size(); i++)
         {
             if (salupe[i].second.isActiva() &&
