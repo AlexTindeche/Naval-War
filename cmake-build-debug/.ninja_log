@@ -24,3 +24,13 @@
 1698	2089	6720151501744683	Naval_War.exe	3d3145ef75d4ba98
 2	1699	6720152373105725	CMakeFiles/Naval_War.dir/main.cpp.obj	6dc5cf1181efb03c
 1699	2224	6720152378376627	Naval_War.exe	3d3145ef75d4ba98
+3	793	6720872752454312	CMakeFiles/Naval_War.dir/nava/nava.cpp.obj	f85eaa452b0a93f1
+35	795	6720872752374523	CMakeFiles/Naval_War.dir/tipNave/crucisator_aparare.cpp.obj	a991a740bc92b244
+13	857	6720872753062683	CMakeFiles/Naval_War.dir/tipNave/salupa.cpp.obj	c1d920b9929e9087
+54	912	6720872753621194	CMakeFiles/Naval_War.dir/tipNave/crucisator.cpp.obj	599276f10f17d9d5
+26	934	6720872753860552	CMakeFiles/Naval_War.dir/tipNave/distrugator.cpp.obj	826ceeb326e399f1
+43	987	6720872754448988	CMakeFiles/Naval_War.dir/tipNave/submarin.cpp.obj	affac7c10561bdf8
+19	1562	6720872760185002	CMakeFiles/Naval_War.dir/main.cpp.obj	6dc5cf1181efb03c
+1562	1900	6720872763336342	Naval_War.exe	3d3145ef75d4ba98
+2	481	6720873769797565	CMakeFiles/Naval_War.dir/nava/nava.cpp.obj	f85eaa452b0a93f1
+482	770	6720873772532078	Naval_War.exe	3d3145ef75d4ba98

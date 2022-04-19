@@ -25,8 +25,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Naval_War.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Naval_War.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nava/nava.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/nava/nava.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nava/nava.h" beforeDir="false" afterPath="$PROJECT_DIR$/nava/nava.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tipNave/crucisator_aparare.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tipNave/crucisator_aparare.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,7 @@
       <updated>1649783122950</updated>
       <workItem from="1649783124556" duration="11301000" />
       <workItem from="1650006822955" duration="21230000" />
-      <workItem from="1650181514177" duration="46254000" />
+      <workItem from="1650181514177" duration="51618000" />
     </task>
     <servers />
   </component>
@@ -119,8 +119,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>364</line>
+          <line>382</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/nava/nava.h</url>
+          <line>8</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

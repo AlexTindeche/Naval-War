@@ -79,6 +79,8 @@ void optiuni ()
 }
 
 // Jocul propriu-zis:
+int Nava::nr_rosu = n;
+int Nava::nr_albastru = n;
 void start ()
 {
     /*
@@ -150,8 +152,6 @@ void start ()
 
     // Citirea datelor pentru jucatorul rosu
     cout << "Jucatorul Rosu: \n\n\n";
-    int nr_albastru, nr_rosu;
-    nr_albastru = nr_rosu = n;
     for (int i = 0; i < n; i++)
     {
         int tip;
@@ -214,17 +214,18 @@ void start ()
     }
     system("cls");
     int runda = 1;
-    while (nr_albastru != 0 && nr_rosu != 0)
+    while (Nava::getNr_albastru() != 0 && Nava::getNr_rosu() != 0)
     {
         cout << "Runda " << runda << '\n';
-        cout << "ALBASTRU mai are " << nr_albastru << " nave iar ROSU mai are " << nr_rosu << " nave\n";
+        cout << "ALBASTRU mai are " << Nava::getNr_albastru() << " nave iar ROSU mai are " << Nava::getNr_rosu() << " nave\n";
         // Aici urmeaza sa jucam runda:
 
         // Exista problema ca daca salupa ataca crucisatorul si acesta isi activa dupa sistemul de aparare, el era inca lovit, asa ca il punem primul sa ia decizia
         for (int i = 0; i < crucisatoare_aparare.size(); i++)
         {
             if (crucisatoare_aparare[i].second.isActiva() && (crucisatoare_aparare[i].second.getAvarie() < 70 &&
-                                                              crucisatoare_aparare[i].second.getCombustibil() > 0)&& crucisatoare_aparare[i].second.getRachete() > 0)
+                                                              crucisatoare_aparare[i].second.getCombustibil() > 0) &&
+                crucisatoare_aparare[i].second.getRachete() > 0)
             {
                 if (crucisatoare_aparare[i].first == 1)
                     cout << "Alegeti actiunea pentru crucisator cu sistem de aparare albastru: ";
@@ -237,7 +238,7 @@ void start ()
                     crucisatoare_aparare[i].second.atac();
                 if (opt == 3)
                     distrugatoare[i].second.regenerare();
-                if(opt == 4)
+                if (opt == 4)
                     crucisatoare_aparare[i].second.armare();
                 crucisatoare_aparare[i].second.intretinere(8);
             }
@@ -246,7 +247,8 @@ void start ()
         for (int i = 0; i < submarine.size(); i++)
         {
             if (submarine[i].second.isActiva() &&
-                (submarine[i].second.getAvarie() < 70 && submarine[i].second.getCombustibil() > 0) && submarine[i].second.getRachete() > 0)
+                (submarine[i].second.getAvarie() < 70 && submarine[i].second.getCombustibil() > 0) &&
+                submarine[i].second.getRachete() > 0)
             {
                 if (submarine[i].first == 1)
                     cout << "Alegeti actiunea pentru submarin albastru: ";
@@ -265,7 +267,8 @@ void start ()
         for (int i = 0; i < salupe.size(); i++)
         {
             if (salupe[i].second.isActiva() &&
-                (salupe[i].second.getAvarie() < 70 && salupe[i].second.getCombustibil() > 0)&& salupe[i].second.getRachete() > 0) // Cele care sunt active isi pot desfasura actiunile
+                (salupe[i].second.getAvarie() < 70 && salupe[i].second.getCombustibil() > 0) &&
+                salupe[i].second.getRachete() > 0) // Cele care sunt active isi pot desfasura actiunile
             {
                 if (salupe[i].first == 1)
                     cout << "Alegeti actiunea pentru salupa albastru: ";
@@ -282,7 +285,8 @@ void start ()
         for (int i = 0; i < distrugatoare.size(); i++)
         {
             if (distrugatoare[i].second.isActiva() &&
-                (distrugatoare[i].second.getAvarie() < 70 && distrugatoare[i].second.getCombustibil() > 0)&& distrugatoare[i].second.getRachete() > 0)
+                (distrugatoare[i].second.getAvarie() < 70 && distrugatoare[i].second.getCombustibil() > 0) &&
+                distrugatoare[i].second.getRachete() > 0)
             {
                 if (distrugatoare[i].first == 1)
                     cout << "Alegeti actiunea pentru distrugator albastru: ";
@@ -301,7 +305,8 @@ void start ()
         for (int i = 0; i < crucisatoare.size(); i++)
         {
             if (crucisatoare[i].second.isActiva() &&
-                (crucisatoare[i].second.getAvarie() < 70 && crucisatoare[i].second.getCombustibil() > 0)&& crucisatoare[i].second.getRachete() > 0)
+                (crucisatoare[i].second.getAvarie() < 70 && crucisatoare[i].second.getCombustibil() > 0) &&
+                crucisatoare[i].second.getRachete() > 0)
             {
                 if (crucisatoare[i].first == 1)
                     cout << "Alegeti actiunea pentru crucisator albastru: ";
@@ -326,47 +331,52 @@ void start ()
         for (int i = 0; i < salupe.size(); i++)
         {
             if (salupe[i].second.isActiva() &&
-                       (salupe[i].second.getAvarie() == 100 || salupe[i].second.getCombustibil() == 0 || salupe[i].second.getRachete() == 0)) // Verificam daca a fost distrusa
+                (salupe[i].second.getAvarie() == 100 || salupe[i].second.getCombustibil() == 0 ||
+                 salupe[i].second.getRachete() == 0)) // Verificam daca a fost distrusa
             {
                 salupe[i].second.distrusa();
-                if (salupe[i].first == 1) nr_albastru--; else nr_rosu--;
+                if (salupe[i].first == 1) Nava::setNr_albastru(Nava::getNr_albastru() - 1); else Nava::setNr_rosu(Nava::getNr_rosu() - 1);
             }
 
         }
         for (int i = 0; i < submarine.size(); i++)
         {
             if (submarine[i].second.isActiva() &&
-                       (submarine[i].second.getAvarie() == 100 || submarine[i].second.getCombustibil() == 0 || submarine[i].second.getRachete() == 0))
+                (submarine[i].second.getAvarie() == 100 || submarine[i].second.getCombustibil() == 0 ||
+                 submarine[i].second.getRachete() == 0))
             {
                 submarine[i].second.distrusa();
-                if (submarine[i].first == 1) nr_albastru--; else nr_rosu--;
+                if (submarine[i].first == 1) Nava::setNr_albastru(Nava::getNr_albastru() - 1); else Nava::setNr_rosu(Nava::getNr_rosu() - 1);
             }
         }
         for (int i = 0; i < distrugatoare.size(); i++)
         {
             if (distrugatoare[i].second.isActiva() &&
-                       (distrugatoare[i].second.getAvarie() == 100 || distrugatoare[i].second.getCombustibil() == 0 || distrugatoare[i].second.getRachete() == 0))
+                (distrugatoare[i].second.getAvarie() == 100 || distrugatoare[i].second.getCombustibil() == 0 ||
+                 distrugatoare[i].second.getRachete() == 0))
             {
                 distrugatoare[i].second.distrusa();
-                if (distrugatoare[i].first == 1) nr_albastru--; else nr_rosu--;
+                if (distrugatoare[i].first == 1) Nava::setNr_albastru(Nava::getNr_albastru() - 1); else Nava::setNr_rosu(Nava::getNr_rosu() - 1);
             }
         }
         for (int i = 0; i < crucisatoare.size(); i++)
         {
             if (crucisatoare[i].second.isActiva() &&
-                       (crucisatoare[i].second.getAvarie() == 100 || crucisatoare[i].second.getCombustibil() == 0 || crucisatoare[i].second.getRachete() == 0))
+                (crucisatoare[i].second.getAvarie() == 100 || crucisatoare[i].second.getCombustibil() == 0 ||
+                 crucisatoare[i].second.getRachete() == 0))
             {
                 crucisatoare[i].second.distrusa();
-                if (crucisatoare[i].first == 1) nr_albastru--; else nr_rosu--;
+                if (crucisatoare[i].first == 1) Nava::setNr_albastru(Nava::getNr_albastru() - 1); else Nava::setNr_rosu(Nava::getNr_rosu() - 1);
             }
         }
         for (int i = 0; i < crucisatoare_aparare.size(); i++)
         {
             if (crucisatoare_aparare[i].second.isActiva() && (crucisatoare_aparare[i].second.getAvarie() == 100 ||
-                                                              crucisatoare_aparare[i].second.getCombustibil() == 0 || crucisatoare_aparare[i].second.getRachete() == 0))
+                                                              crucisatoare_aparare[i].second.getCombustibil() == 0 ||
+                                                              crucisatoare_aparare[i].second.getRachete() == 0))
             {
                 crucisatoare_aparare[i].second.distrusa();
-                if (crucisatoare_aparare[i].first == 1) nr_albastru--; else nr_rosu--;
+                if (crucisatoare_aparare[i].first == 1) Nava::setNr_albastru(Nava::getNr_albastru() - 1); else Nava::setNr_rosu(Nava::getNr_rosu() - 1);
             }
         }
         runda++;
@@ -374,7 +384,7 @@ void start ()
             crucisatoare_aparare[i].second.dezarmare();
     }
     system("cls");
-    if (nr_albastru == 0)
+    if (Nava::getNr_albastru() == 0)
         cout << "Jocul a fost castigat de jucatorul rosu!";
     else
         cout << "Jocul a fost castigat de jucatorul albastru!";
@@ -383,7 +393,7 @@ void start ()
 
 
 // Resetare tablei
-void reset()
+void reset ()
 {
     tabla.clear();
     vector<int> v;
@@ -423,5 +433,12 @@ int main ()
         }
         opt = home();
     }
+
+    // Exemplu de dynamic_cast
+//    vector<Nava> test;
+//    Salupa x;
+//    test.push_back(x);
+//    Salupa* y = dynamic_cast <Salupa*> (&test[0]);
+//    y->avariat();
     return 0;
 }

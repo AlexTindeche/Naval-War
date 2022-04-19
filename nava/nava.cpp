@@ -32,9 +32,21 @@ Nava::~Nava(){
 void Nava::atac(){
     int x, y;
     cout << "Introduceti coordinatele pe care vreti sa le atacati: ";
-    cin >> x >> y;
-    while(x > dim || y > dim || x < 0 || y < 0)
+    try
+    {
         cin >> x >> y;
+        if(x > dim || y > dim || x < 0 || y < 0)
+            throw 0;
+    }
+    catch(...)
+    {
+        while(x > dim || y > dim || x < 0 || y < 0)
+        {
+            cout << "Coordonatele nu exista, introduceti datele din nou: ";
+            cin >> x >> y;
+        }
+    }
+
     rachete--;
     // Pentru a ingreuna jocul, se pot ataca si propriile nave, chiar da este din greseala jucatorului!
     // Asa ca vom trece prin toti vectori de nave pentru a determina daca se afla ceva la coordonatele respective

@@ -9,6 +9,7 @@
 class Nava
 {
 protected:
+    static int nr_albastru, nr_rosu;
     char* tip{};
     int combustibil_initial;
     int rachete;
@@ -39,6 +40,10 @@ public:
     int getCombustibil(){return combustibil_initial;}
     void intretinere(int x){combustibil_initial -= x; if(combustibil_initial < 0) combustibil_initial = 0;}
     int getRachete(){return rachete;}
+    static int getNr_albastru(){return nr_albastru;}
+    static int getNr_rosu(){return nr_rosu;}
+    static void setNr_albastru(int nr){nr_albastru = nr;}
+    static void setNr_rosu(int nr){nr_rosu = nr;}
 };
 
 
